@@ -1,0 +1,114 @@
+.title {
+    font-family: 'Baskervville';
+    background-color: #8a1440;
+    color: #ffffff;
+    text-align: center;
+    padding: 50px;
+}
+
+body {
+    background-color: #886A64;
+}
+
+ul {
+    list-style: none;
+}
+
+.nav-link {
+    font-family: 'Baskervville';
+    color: #ffffff;
+    font-size: 130%;
+}
+
+.nav-link:hover {
+    color: #8a1440;
+}
+
+.nav-location {
+    display: flex;
+    justify-content: center;
+    padding-top: 14px;
+}
+
+.content-cs {
+    margin: 5rem 2rem;
+}
+
+.h1-cs50 {
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+.p-cs50 {
+    font-family: 'Raleway';
+    text-align: center justify;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 0 40px;
+    font-size: 130%;
+}
+
+.intro-cs {
+    margin-bottom: 2rem;
+}
+
+.img-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+}
+
+.img-moving {
+    width: 500px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.arrow-left, .arrow-right {
+    font-size: 200%;
+    border: none;
+    background-color: #8a1440;
+    border-radius: 15px;
+    font-family: 'Baskervville';
+    font-weight: bold;
+    padding: 0px 5px;
+    margin: 8px;
+}
+
+/* Footer styles */
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.footer-name {
+    font-size: 1.2rem;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.social-icons a {
+    text-decoration: none;
+}
+
+.fa-facebook {
+    font-size: 2rem;
+    color: #1877f2;
+}
+
+.fa-github {
+    font-size: 2rem;
+    color: #333;
+}

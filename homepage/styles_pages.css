@@ -1,0 +1,172 @@
+.title {
+    font-family: 'Baskervville';
+    background-color: #8a1440;
+    color: #ffffff;
+    text-align: center;
+    padding: 50px;
+}
+
+body {
+    background-color: #886A64;
+}
+
+ul {
+    list-style: none;
+}
+
+.nav-link {
+    font-family: 'Baskervville';
+    color: #ffffff;
+    font-size: 130%;
+}
+
+.nav-link:hover {
+    color: #8a1440;
+}
+
+.nav-location {
+    display: flex;
+    justify-content: center;
+    padding-top: 14px;
+}
+
+.h1-me {
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+.p-me {
+    font-family: 'Raleway';
+    text-align: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 40px;
+    font-size: 120%;
+    text-align: justify;
+    letter-spacing: 0.6px;
+}
+
+.first-para::first-letter {
+    font-size: 2rem;
+    color: #8a1440;
+    float: left;
+    margin-right: 0.5rem;
+}
+
+div[class="row align-items-center"] {
+    margin-top: 2rem;
+    padding: 0 15px; /* add padding to the left and right sides */
+}
+
+#img_1, #img_2 {
+    margin-bottom: 2rem; /* add some space at the bottom */
+}
+
+.img-fluid {
+    border-radius: 15px;
+}
+
+.icon-country {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 400%;
+}
+
+.country-header {
+    margin-bottom: 2rem;
+}
+
+#halong img, #hoian img, #danang img {
+    width: 400px;
+    height: 250px;
+    object-fit: cover; /* This will preserve the aspect ratio of the images while resizing */
+    margin: 0.5rem 0;
+}
+
+.landscape {
+    margin: 40px;
+}
+
+#football img, #cooking img, #esport img, #running img {
+    width: 400px;
+    height: 250px;
+    object-fit: cover; /* This will preserve the aspect ratio of the images while resizing */
+}
+
+#hobbies-name {
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    margin: 1rem 1rem;
+}
+
+.text-center h2 {
+    font-family: 'Baskervville', sans-serif;
+    color: #black;
+    margin: 2rem 1rem;
+}
+
+#guess {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    line-height: 3;
+    border-radius: 0.5rem;
+    border: 1px solid black;
+    color: #8a1440;
+    background-color: #D2DBE3;
+}
+
+#guess-button {
+    line-height: 3;
+    font-family: 'Baskervville', sans-serif;
+    font-weight: bold;
+    border-radius: 0.5rem;
+    border: 1px solid transparent;
+    background-color: #8a1440;
+    color: black;
+}
+
+#noti_message {
+    font-family: 'Baskervville', sans-serif;
+    font-weight: bold;
+    margin: 1rem 1rem;
+}
+
+/* Footer styles */
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.footer-name {
+    font-size: 1.2rem;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.social-icons a {
+    text-decoration: none;
+}
+
+.fa-facebook {
+    font-size: 2rem;
+    color: #1877f2;
+}
+
+.fa-github {
+    font-size: 2rem;
+    color: #333;
+}
+
+
+
+
