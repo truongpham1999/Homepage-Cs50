@@ -24,7 +24,7 @@ function hobbies_guessing()
     let noti = document.querySelector("#noti_message");
     let input_lower = input.value.toLowerCase();
 
-    if (input_lower == "esport")
+    if (input_lower == "esports")
     {
         noti.innerHTML = "Correct!";
         noti.style.color = "#4FD4B6";
